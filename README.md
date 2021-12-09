@@ -22,26 +22,46 @@ An App for writers to meet, share, compete, and inspire one another as well as h
 
 ## Overview
 
-**Nevermore** is an App for writers to meet, share, compete, and inspire one another as well as host collections of their own creations.
+**Nevermore** is an App for writers to meet, share, compete, and inspire one another as well as host collections of their own creations. It was developed with the intention of giving writers a dedicated and safe place to hone their craft and receieve constructive feedback. 
 
 
 <br>
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
+The **Nevermore** MVP includes: 
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+#Server (Back End)
+- Build a Ruby on Rails server, exposing RESTful JSON endpoints.
+- Build database with at least 2 tables:
+  - With at least 1 association between both tables. 
+- Utilize Rails to define models for interacting with the database.
+- Implement working generic controller actions for Full CRUD (index, show, create, update, delete) between non-User tables.
+
+#Client (Front End)
+- Have a working, interactive React app.
+- Have at least 8 separate, rendered components in an organized and understandable React file structure.
+- Utilize functional or class React components appropriately.
+- Utilize state and props in your components efficiently.
+- Use only React for DOM Manipulation.
+- Consume data from created Ruby on Rails API, and render that data in components.
+- Utilize React Router, for client-side routing.
+- Demonstrate Full CRUD actions ( index, show, create, update, and delete ) on the front end.
+
+#Styling (Front End)
+- Be styled with CSS (or SCSS, if you'd prefer).
+- Use Flexbox or Grid in your layout design.
+- Implement 2 media queries for responsive design on 3 screen sizes (including desktop).
 
 <br>
 
 ### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- Establish a fully working Ruby on Rails Back End for MVP functionality.
+- Establish a link between React front end with back end to display data.
+- Create an alluring and fun UI/UX for users.
+- Polish the app for availability on multiple screens.
+- Create a User Authentication and Verification process.
 
 <br>
 
@@ -51,11 +71,11 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | Used for client side Front End rendering.  |
+|   React Router   | For seemless transitions between pages.    |
+|   Unannounced    |               Unannounced                  |
+|   Unannounced    |               Unannounced                  |
+|   Unannounced    |               Unannounced                  |
 
 <br>
 
@@ -63,41 +83,30 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
-
-![Dummy Link](url)
-
 - Desktop Landing
 
-![Dummy Link](url)
-
-- Desktop Hero
-
-![Dummy Link](url)
+![Screen Shot 2021-12-09 at 2 37 23 PM](https://user-images.githubusercontent.com/91752553/145464103-d3ec9648-d157-4e78-98d5-c2c4f6d1ab46.png)
 
 - Resource Index
 
-![Dummy Link](url)
+![Screen Shot 2021-12-09 at 2 39 20 PM](https://user-images.githubusercontent.com/91752553/145464337-0aa90d16-c121-4bd4-81c8-8a8e517073e9.png)
 
 - Resource Show
 
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
+![Screen Shot 2021-12-09 at 2 39 47 PM](https://user-images.githubusercontent.com/91752553/145464426-b3ae0179-b1e5-4061-a645-b74e6070e1d9.png)
 
 - Mobile Resource Index
+
+![Screen Shot 2021-12-09 at 2 40 35 PM](https://user-images.githubusercontent.com/91752553/145464542-67934cff-db07-4495-a590-7b8f41a9b887.png)
+
 
 #### Component Tree
 
 > Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
 
-[Component Tree Sample](https://gist.git.generalassemb.ly/davidtwhitlatch/414107e2560ae0bb65e233570f2fe056#file-component-tree-png)
+![Screen Shot 2021-12-09 at 2 41 38 PM](https://user-images.githubusercontent.com/91752553/145464638-709a9098-3187-4991-a9a8-17e5e14d07b5.png)
 
 #### Component Architecture
-
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
 
 ``` structure
 
@@ -131,9 +140,8 @@ src
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+![Screen Shot 2021-12-09 at 2 33 53 PM](https://user-images.githubusercontent.com/91752553/145463647-202bbdea-e747-45fd-b69c-da830bd539f8.png)
 
-[ERD Sample](https://drive.google.com/file/d/1kLyQTZqfcA4jjKWQexfEkG2UspyclK8Q/view)
 <br>
 
 ***
