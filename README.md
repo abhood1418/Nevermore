@@ -95,8 +95,7 @@ The **Nevermore** MVP includes:
 
 - Mobile Resource Index
 
-![Screen Shot 2021-12-09 at 2 40 35 PM](https://user-images.githubusercontent.com/91752553/145464542-67934cff-db07-4495-a590-7b8f41a9b887.png)
-
+![Screen Shot 2021-12-09 at 4 23 28 PM](https://user-images.githubusercontent.com/91752553/145490116-d66c95f3-525e-44dd-b37c-e6899d41fa34.png)
 
 #### Component Tree
 
