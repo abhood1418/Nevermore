@@ -67,8 +67,6 @@ The **Nevermore** MVP includes:
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
-
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
 |      React       | Used for client side Front End rendering.  |
@@ -101,8 +99,6 @@ The **Nevermore** MVP includes:
 
 
 #### Component Tree
-
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
 
 ![Screen Shot 2021-12-09 at 2 41 38 PM](https://user-images.githubusercontent.com/91752553/145464638-709a9098-3187-4991-a9a8-17e5e14d07b5.png)
 
