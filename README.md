@@ -1,11 +1,7 @@
 # Nevermore
 An App for writers to meet, share, compete, and inspire one another as well as host collections of their own creations.
 
-# PROJECT 4 README <!-- omit in toc -->
-
-> The Project Planning section **should be completed** for your project pitch with instructors.
->
-> To ensure correct Markdown, copy and paste the raw template code into your project repo README file. Remove ALL template instructions and replace with your project details.
+# Table of Contents
 
 - [Overview](#overview)
 - [MVP](#mvp)
@@ -26,7 +22,7 @@ An App for writers to meet, share, compete, and inspire one another as well as h
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+**Nevermore** is an App for writers to meet, share, compete, and inspire one another as well as host collections of their own creations.
 
 
 <br>
