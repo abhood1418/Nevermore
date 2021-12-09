@@ -87,11 +87,11 @@ The **Nevermore** MVP includes:
 
 - Resource Index
 
-![Screen Shot 2021-12-09 at 2 39 20 PM](https://user-images.githubusercontent.com/91752553/145464337-0aa90d16-c121-4bd4-81c8-8a8e517073e9.png)
+![Screen Shot 2021-12-09 at 4 28 13 PM](https://user-images.githubusercontent.com/91752553/145478458-306fbb2c-2855-423c-8c77-c1a6b2f3ff54.png)
 
 - Resource Show
 
-![Screen Shot 2021-12-09 at 2 39 47 PM](https://user-images.githubusercontent.com/91752553/145464426-b3ae0179-b1e5-4061-a645-b74e6070e1d9.png)
+![Screen Shot 2021-12-09 at 4 28 22 PM](https://user-images.githubusercontent.com/91752553/145478501-eb8f218e-a481-4eaf-b881-ceca777e78d8.png)
 
 - Mobile Resource Index
 
@@ -100,7 +100,8 @@ The **Nevermore** MVP includes:
 
 #### Component Tree
 
-![Screen Shot 2021-12-09 at 2 41 38 PM](https://user-images.githubusercontent.com/91752553/145464638-709a9098-3187-4991-a9a8-17e5e14d07b5.png)
+![Screen Shot 2021-12-09 at 4 29 41 PM](https://user-images.githubusercontent.com/91752553/145478616-c5ed7dff-c368-472b-a5ff-a9e4ea436963.png)
+
 
 #### Component Architecture
 
