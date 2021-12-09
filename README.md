@@ -195,6 +195,7 @@ src
 - Add Likes Table.
 - Add Comments Table.
 - Create user select for App theme options.
+- Customizable Tome Options.
 - Add User Page with Tome Library Creation (allow users to collect works as parts of Tomes and produce multiple Tomes).
 - Create Follower Feed & Explore Feed. 
 - Store Rich Text, IMG, & MP4 data. 
