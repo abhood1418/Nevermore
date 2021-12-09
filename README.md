@@ -112,25 +112,73 @@ The **Nevermore** MVP includes:
 
 src
 |__ assets/
-      |__ fonts
-      |__ graphics
       |__ images
-      |__ mockups
+|__ Css/
+      |__ component-css
+          |__ Layout.css
+          |__ MainContainer.css
+          |__ FlipBook.css
+          |__ Quote.css
+          |__ InfoCards.css
+          |__ DisplayTome.css
+          |__ Benefits.css
+          |__ BookModel.css
+          |__ TomeDetail.css
+          |__ EditForm.css
+          |__ CreateFrom.css
+          |__ Hamburger.css
+       |__ screens-css
+          |__ Home.css
+          |__ TomeLibrary.css
+          |__ TomeDetail.css
+          |__ EditTome.css
+          |__ CreateTome.css
+          |__ Register.css
+          |__ SignIn.css
 |__ components/
-      |__ Header.jsx
+      |__ Layout.jsx
+      |__ MainContainer.jsx
+      |__ FlipBook.jsx
+      |__ Quote.jsx
+      |__ InfoCards.jsx
+      |__ DisplayTome.jsx
+      |__ Benefits.jsx
+      |__ BookModel.jsx
+      |__ TomeDetail.jsx
+      |__ EditForm.jsx
+      |__ CreateFrom.jsx
+      |__ Hamburger.jsx
 |__ services/
+      |__ apiConfig.jsx
+|__ screens/
+      |__ Home.jsx
+      |__ TomeLibrary.jsx
+      |__ TomeDetail.jsx
+      |__ EditTome.jsx
+      |__ CreateTome.jsx
+      |__ Register.jsx
+      |__ SignIn.jsx
 
 ```
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
-
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Add User Auth.      |    H     |     4 hrs      |      TBD      |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |      TBD      |     TBD     |
+| Create Forms        |    H     |     8 hrs      |      TBD      |     TBD     |
+| Create Layout       |    M     |     3 hrs      |      TBD      |     TBD     |
+| Book Model          |    H     |     2 hrs      |      TBD      |     TBD     |
+| Tome Detail         |    H     |     3 hrs      |      TBD      |     TBD     |
+| Flip Book           |    L     |     3 hrs      |      TBD      |     TBD     |
+| Quote               |    L     |     2 hrs      |      TBD      |     TBD     |
+| Info Cards          |    L     |     4 hrs      |      TBD      |     TBD     |
+| Display Tome        |    L     |     3 hrs      |      TBD      |     TBD     |
+| Benefits            |    L     |     2 hrs      |      TBD      |     TBD     |
+| Hamburger           |    M     |     3 hrs      |      TBD      |     TBD     |
+| Styling             |    M     |     8 hrs      |      TBD      |     TBD     |
+| TOTAL               |          |     54 hrs     |      TBD      |     TBD     |
 
 > _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
 
@@ -148,7 +196,12 @@ src
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+- Add Likes Table.
+- Add Comments Table.
+- Add User Page with Tome Library Creation (allow users to collect works as parts of Tomes and produce multiple Tomes).
+- Create Follower Feed & Explore Feed. 
+- Store Rich Text, IMG, & MP4 data. 
+- Create Contest Section.
 
 ***
 
