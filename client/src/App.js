@@ -16,6 +16,7 @@ import TomeLibrary from './screens/TomeLibrary';
 import TomeDetail from './screens/TomeDetail';
 import Home from './screens/Home';
 import { getAllPosts, postPost, putPost, deletePost } from './services/post';
+// import './assets/css/fonts.css';
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);

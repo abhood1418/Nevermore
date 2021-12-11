@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Orbitron:wght@400;500&display=swap');
+
+.nav-main-div {
+  background-color: #2D2E2E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #BCABAE;
+  font-family: 'Slabo 13px', serif;
+}
+
+.nav-main-div a {
+  text-decoration: none;
+  color: #BCABAE;
+}
+
+.nav-main-div p {
+  margin: 0;
+}
+
+.logo-area {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4vw;
+}
+
+.logo-nav {
+  height: 100px;
+  width: 100px;
+  transform: translateY(-2vh);
+}
+
+.auth-options {
+  display: inline-flex;
+  margin-top: 2.5vh;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  font-size: 24px;
+  font-family: 'Slabo 13px', serif;
+}
+
+.auth-options p a {
+  padding: 5vw;
+  font-size: 24px;
+}
+
+.nav-filler {
+  height: 100px;
+  background-color: #2D2E2E;
+}
+
+.signout-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Slabo 13px', serif;
+  font-size: 24px;
+  color: #BCABAE;
+}
+
+.nav-title {
+  font-size: 48px;
+}
