@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import { Routes, Route, useHistroy } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Layout from "./components/Layout.jsx";
 import SignIn from "./screens/SignIn";
 import {
@@ -14,7 +14,7 @@ import MainContainer from "./components/MainContainer";
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
-  const history = useHistory();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleVerify = async () => {
@@ -27,13 +27,13 @@ function App() {
   const handleLogin = async (formData) => {
     const userData = await loginUser(formData);
     setCurrentUser(userData);
-    history.push("/library");
+    navigate.push("/library");
   };
 
   const handleRegister = async (formData) => {
     const userData = await registerUser(formData);
     setCurrentUser(userData);
-    history.push("/Library");
+    navigate.push("/library");
   };
 
   const handleLogout = () => {
@@ -46,15 +46,9 @@ function App() {
     <div className="app">
       <Layout currentUser={currentUser} handleLogout={handleLogout} />
       <Routes>
-        <Route path="/login">
-          <SignIn handleLogin={handleLogin} />
-        </Route>
-        <Route path="/register">
-          <Register handleRegister={handleRegister} />
-        </Route>
-        <Route path="/">
-          <MainContainer currentUser={currentUser} />
-        </Route>
+        <Route path="/login" element={<SignIn handleLogin={handleLogin}/>} />
+        <Route path="/register" element={<Register handleRegister={handleRegister}/>}/>
+        <Route path="/" element={<MainContainer currentUser={currentUser} />} />
       </Routes>
     </div>
   );
