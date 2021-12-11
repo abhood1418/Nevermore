@@ -10,13 +10,13 @@ export const getOnePost = async (id) => {
   return resp.data;
 };
 
-export const postPost = async (foodData) => {
-  const resp = await api.post("/posts", { food: foodData });
+export const postPost = async (postData) => {
+  const resp = await api.post("/posts", { post: postData });
   return resp.data;
 };
 
-export const putPost = async (id, foodData) => {
-  const resp = await api.put(`/posts/${id}`, { food: foodData });
+export const putPost = async (id, postData) => {
+  const resp = await api.put(`/posts/${id}`, { post: postData });
   return resp.data;
 };
 
