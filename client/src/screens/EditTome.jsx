@@ -1,10 +1,10 @@
+import EditForm from '../components/EditForm';
 
 
-
-const EditTome = () => {
+const EditTome = ({posts, handlePostUpdate, handlePostDelete}) => {
   return (
     <div>
-
+      <EditForm posts={posts} handlePostUpdate={handlePostUpdate} handlePostDelete={handlePostDelete} />
     </div>
   )
 }
