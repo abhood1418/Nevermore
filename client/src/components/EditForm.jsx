@@ -1,10 +1,14 @@
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
-export default function PostEdit({ posts, handlePostUpdate, handlePostDelete }) {
+export default function PostEdit({
+  posts,
+  handlePostUpdate,
+  handlePostDelete,
+}) {
   const [formData, setFormData] = useState({
-    title: '',
-    content:'',
+    title: "",
+    content: "",
   });
   const { title, content } = formData;
   const { id } = useParams();
@@ -35,11 +39,16 @@ export default function PostEdit({ posts, handlePostUpdate, handlePostDelete }) 
       <h3>Rewrite Tome</h3>
       <label>
         Title:
-        <input type='text' name='title' value={title} onChange={handleChange} />
+        <input type="text" name="title" value={title} onChange={handleChange} />
       </label>
       <label>
         Content:
-        <textarea type='textarea' name='content' value={content} onChange={handleChange} />
+        <textarea
+          type="textarea"
+          name="content"
+          value={content}
+          onChange={handleChange}
+        />
       </label>
       <button>Rewrite</button>
       <button onClick={() => handlePostDelete(id)}>Delete</button>

@@ -1,11 +1,9 @@
-
-  
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function PostCreate({ handlePostCreate }) {
   const [formData, setFormData] = useState({
-    title: '',
-    content: '',
+    title: "",
+    content: "",
   });
   const { title, content } = formData;
 
@@ -27,11 +25,16 @@ export default function PostCreate({ handlePostCreate }) {
       <h3>Create Tome</h3>
       <label>
         Title:
-        <input type='text' name='title' value={title} onChange={handleChange} />
+        <input type="text" name="title" value={title} onChange={handleChange} />
       </label>
       <label>
         Content:
-        <textarea type='textarea' name='content' value={content} onChange={handleChange} />
+        <textarea
+          type="textarea"
+          name="content"
+          value={content}
+          onChange={handleChange}
+        />
       </label>
       <button>Submit</button>
     </form>
