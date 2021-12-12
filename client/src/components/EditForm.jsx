@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-export default function PostEdit({ posts, handlePostUpdate }) {
+export default function PostEdit({ posts, handlePostUpdate, handlePostDelete }) {
   const [formData, setFormData] = useState({
     title: '',
     content:'',
@@ -42,6 +42,7 @@ export default function PostEdit({ posts, handlePostUpdate }) {
         <textarea type='textarea' name='content' value={content} onChange={handleChange} />
       </label>
       <button>Rewrite</button>
+      <button onClick={() => handlePostDelete(id)}>Delete</button>
     </form>
   );
 }
