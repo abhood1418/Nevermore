@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import { Routes, Route, useNavigate, BrowserRouter } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Layout from "./components/Layout.jsx";
 import SignIn from "./screens/SignIn";
 import {
@@ -61,7 +61,7 @@ function App() {
     fetchPosts();
   }, []);
 
-  const handlePostCreate = async (id, formData) => {
+  const handlePostCreate = async (formData) => {
     const newPost = await postPost(formData);
     setPosts((prevState) => [...prevState, newPost]);
     navigate('/library');
@@ -92,7 +92,7 @@ function App() {
         {/* <Route path="/" element={<MainContainer currentUser={currentUser} />} /> */}
 
         <Route path="/library/:id/edit" element={<EditTome posts={posts} handlePostUpdate={handlePostUpdate} handlePostDelete={handlePostDelete} />} />
-        <Route path="/library/create" element={<CreateTome handlePostCreate={handlePostCreate} />} />
+        <Route path="/library/create" element={<CreateTome handlePostCreate={handlePostCreate}/>} />
         <Route path="/library/:id" element={<TomeDetail currentUser={currentUser} />} />
         <Route path="/library" exact element={<TomeLibrary posts={posts} currentUser={currentUser} />} />
         <Route path="/" element={<Home posts={posts} currentUser={currentUser}/>} />

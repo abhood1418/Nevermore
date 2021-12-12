@@ -1,10 +1,10 @@
+import CreateForm from '../components/CreateForm';
 
 
-
-const CreateTome = () => {
+const CreateTome = ({handlePostCreate}) => {
   return (
     <div>
-
+      <CreateForm handlePostCreate={handlePostCreate} />
     </div>
   )
 }
