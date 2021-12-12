@@ -47,6 +47,7 @@ function App() {
     setCurrentUser(null);
     localStorage.removeItem("authToken");
     removeToken();
+    navigate("/");
   };
 
 
@@ -93,7 +94,7 @@ function App() {
         <Route path="/library/:id/edit" element={<EditTome posts={posts} handlePostUpdate={handlePostUpdate} handlePostDelete={handlePostDelete} />} />
         <Route path="/library/create" element={<CreateTome handlePostCreate={handlePostCreate} />} />
         <Route path="/library/:id" element={<TomeDetail currentUser={currentUser} />} />
-        <Route path="/library" element={<TomeLibrary posts={posts} currentUser={currentUser} />} />
+        <Route path="/library" exact element={<TomeLibrary posts={posts} currentUser={currentUser} />} />
         <Route path="/" element={<Home posts={posts} currentUser={currentUser}/>} />
       </Routes>
     </div>
