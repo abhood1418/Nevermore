@@ -24,7 +24,7 @@ const DisplayTome = () => {
       <div className="page__content-text">
         <p>His name was Gaal Dornick and he was just a country boy who had never seen Trantor before. That is, not in real life. He had seen it many times on the hyper-video, and occasionally in tremendous three-dimensional newscasts covering an Imperial Coronation or the opening of a Galactic Council. Even though he had lived all his life on the world of Synnax, which circled a star at the edges of the Blue Drift, he was not cut off from civilization, you see. At that time, no place in the Galaxy was. </p>
 
-        <p>There were nearly twenty-five million inhabited planets in the Galaxy then, and not one but owed allegiance to the Empire whose seat was on Trantor. </p>
+        <p>There were nearly twenty-five million inhabited planets in the Galaxy then. </p>
       </div>
       <div className="page__number">3</div>
     </div>
