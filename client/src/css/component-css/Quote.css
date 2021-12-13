@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&family=Slabo+27px&display=swap');
+
+.quote-main-div {
+  font-family: 'Shadows Into Light Two', cursive;
+  background-color: #2D2E2E;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 20px;
+}
+
+.quote {
+  margin: 0;
+  padding-left: 10vw;
+  font-size: 48px;
+  width: 70%;
+  letter-spacing: .1vw;
+}
+
+.quote-author {
+  text-align: right;
+  padding-right: 10vw;
+}

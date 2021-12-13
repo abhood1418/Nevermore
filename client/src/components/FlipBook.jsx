@@ -3,6 +3,7 @@ import '../css/component-css/FlipBook.scss';
 
 const FlipBook = () => {
   return (
+    <div className="flipbody">
     <div className="flipbook-div">
         <div class="imgLoader"></div>
 
@@ -43,7 +44,8 @@ const FlipBook = () => {
     </div>
   </div>
 </div>
-    </div>
+      </div>
+      </div>
   )
 }
 
