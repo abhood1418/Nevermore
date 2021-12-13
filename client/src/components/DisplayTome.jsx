@@ -4,6 +4,7 @@ import '../css/component-css/DisplayTome.scss'
 const DisplayTome = () => {
   return (
     // <div><Helmet><link rel="stylesheet" href="https://use.typekit.net/lae8qkv.css"  /></Helmet>
+    <div className="supreme">
     <div className="ultimate-dispbook-div">
       <div className="cover">
   <div className="book">
@@ -52,7 +53,7 @@ const DisplayTome = () => {
         
         <div className="page__content-copyright">
           <p>The Folio Society</p>
-          <p>London - MMXII</p>
+          <p><strong>Click Next Page to Turn</strong></p>
         </div>
       </div>
     </div>
@@ -79,10 +80,24 @@ const DisplayTome = () => {
         
         <div className="page__number">2</div>
       </div>
-    </div>
+              </div>
+              
   </label>
-</div>
-</div>
+          </div>
+          
+      </div>
+      <div className="benefits">
+      <h1 className="text-hero">Create + Share your own Tomes</h1>
+      <h6 className="text-sidekick">- Store your Short Stories, Poetry, or even Novels in their own Tomes and create and share a collection of your work.</h6>
+      <h1 className="text-hero">Join a Community of Writers</h1>
+      <h6 className="text-sidekick">- Store your Short Stories, Poetry, or even Novels in their own Tomes and create and share a collection of your work.</h6>
+      <h1 className="text-hero">Create + Share your own Tomes</h1>
+      <h6 className="text-sidekick">- Become a member of a large and diverse community of aspiriing writers.</h6>
+      <h6 className='text-sidekick'>Follow your favoirte community writers, converse, and build each other’s creativty</h6>
+      <h1 className="text-hero">Participate in Community Contests for Rewards</h1>
+      <h6 className="text-sidekick">- Challenge yourself with our many community contests & compete for rewards.</h6>
+      </div>
+      </div>
       </div>
   );
 };

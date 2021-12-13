@@ -1,3 +1,10 @@
 .lower-info-main {
   background-color: #746B6B;
+  display: flex;
+  flex-direction: row;
+}
+
+.lower-filler {
+  height: 400px;
+  background-color: #746B6B;
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,600|Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&family=Slabo+27px&display=swap');
 
 .ultimate-dispbook-div {
   /* colors */
@@ -17,16 +18,12 @@
   --base-size: var(--baseline) * 1.2;
   display: flex;
   justify-content: center;
-  // margin-left: 10vw;
-  padding-left: 10vw;
+  padding-left: 5vw;
   padding-bottom: 10vh;
   background-color: var(--body-bg);
-  // height: 100vh;
-  display: flex;
-  flex-direction: column;
-  // align-items: center;
-  // justify-content: center;
+  flex-direction: row;
   background-color:#746B6B;
+  justify-content: space-evenly;
 }
 
 * {
@@ -220,3 +217,20 @@
   }
 }
 
+.benefits {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 400px;
+  padding:0;
+}
+
+.text-hero {
+  font-size: 24px;
+}
+
+.benefits .text-sidekick {
+  font-size: 18px;
+  padding: 2px;
+  margin: 0;
+}
