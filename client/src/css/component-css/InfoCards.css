@@ -60,6 +60,7 @@
 .main-title {
   padding-top: 15%;
   margin-left: 15vw;
+  margin-bottom: 0;
 }
 
 .border-container {
@@ -80,7 +81,7 @@
   margin-top: 7vh;
 }
 .alice {
-  transform: translateY(-8.5vh);
+  transform: translateY(-5.5vh);
 }
 
 .main-desc {
@@ -89,4 +90,6 @@
   height: fit-content;
   margin-right: 0;
   margin-left: 12vw;
+  margin-top: 0;
+  padding-top: 0;
 }

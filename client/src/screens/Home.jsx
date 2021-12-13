@@ -5,6 +5,7 @@ import '../css/screens-css/Home.css';
 import FlipBook from "../components/FlipBook";
 import Quote from "../components/Quote";
 import InfoCards from "../components/InfoCards";
+import LowerInfo from "../components/LowerInfo"
 
 const Home = ({ posts }) => {
   return (
@@ -13,6 +14,8 @@ const Home = ({ posts }) => {
       <FlipBook />
       <Quote />
       <InfoCards />
+      <div className="space-div"></div>
+      <LowerInfo />
   </div>
   )
 }

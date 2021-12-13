@@ -17,7 +17,7 @@ const FlipBook = () => {
     * Images loaded randomly from Picsum.photos
   </div> --> */}
 
-  <div class="book">
+  <div class="book2">
     <div class="gap"></div>
     <div class="pages">
       <div class="page"></div>
