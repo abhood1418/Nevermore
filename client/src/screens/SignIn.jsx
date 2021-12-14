@@ -60,7 +60,7 @@ export default function SignIn(props) {
             <br />
             <div className="btn-container">
               <Link className="login-options" id="link-btn" to="/register">Register</Link>
-              <button className="login-options" id="submit-login">Submit</button>
+              <button className="login-options" id="submit-login">Login</button>
             </div>
           </div>
           <img className="peer" src={peare} />

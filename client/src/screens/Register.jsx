@@ -72,7 +72,7 @@ export default function Register(props) {
             <br />
             <div className="btn-container">
               <button className="login-options" id="submit-login">
-                Submit
+                Register
               </button>
             </div>
           </div>
