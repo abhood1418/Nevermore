@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Slabo+27px&display=swap');
+
 .library-main-div {
   width: 30%;
   height: 50vh;
@@ -110,11 +112,13 @@
 .library-post-title {
   text-align: center;
   color: #FFFFFF;
+  font-family: 'Slabo 13px', serif;
 }
 
 .library-post-user {
   text-align: center;
   color: #BCABAE;
+  font-family: 'Slabo 13px', serif;
 }
 
 .text-interior {
