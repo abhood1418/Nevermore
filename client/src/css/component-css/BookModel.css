@@ -8,7 +8,6 @@
   background: #ccc;
   flex-direction: row;
   background-color: #CFBCB0;
-  padding: 20px;
   flex-wrap: wrap;
 }
 
@@ -18,7 +17,7 @@
   height: 300px;
   cursor: pointer;
   backface-visibility: visible;
-  width: 100px;
+  width: fit-content;
 }
 
 .front, .back, .page1, .page2, .page3, .page4, .page5, .page6 {
