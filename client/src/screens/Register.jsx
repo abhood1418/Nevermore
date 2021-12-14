@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Register(props) {
   const [formData, setFormData] = useState({
-    username: '',
-    email: '',
-    password: '',
+    username: "",
+    email: "",
+    password: "",
   });
   const { username, email, password } = formData;
   const { handleRegister } = props;
@@ -18,44 +18,62 @@ export default function Register(props) {
   };
 
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        handleRegister(formData);
-      }}
-    >
-      <h3>Register</h3>
-      <label>
-        Username:
-        <input
-          type='text'
-          name='username'
-          value={username}
-          onChange={handleChange}
-        />
-      </label>
-      <br />
-      <label>
-        Email:
-        <input
-          type='text'
-          name='email'
-          value={email}
-          onChange={handleChange}
-        />
-      </label>
-      <br />
-      <label>
-        Password:
-        <input
-          type='password'
-          name='password'
-          value={password}
-          onChange={handleChange}
-        />
-      </label>
-      <br />
-      <button>Submit</button>
-    </form>
+    <div className="login-main-div">
+      <div className="form-div">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleRegister(formData);
+          }}
+        >
+          <div className="text-login-header">
+            <h3 className="login-text">Register</h3>
+          </div>
+          <div className="form-container">
+            <label className="labels-signin">
+              {/* Username: */}
+              <input
+                type="text"
+                name="username"
+                value={username}
+                onChange={handleChange}
+                className="input-signin"
+                placeholder="username"
+              />
+            </label>
+            <br />
+            <label className="labels-signin">
+              {/* Email: */}
+              <input
+                type="text"
+                name="email"
+                value={email}
+                onChange={handleChange}
+                className="input-signin"
+                placeholder="Email"
+              />
+            </label>
+            <br />
+            <label className="labels-signin">
+              {/* Password: */}
+              <input
+                type="password"
+                name="password"
+                value={password}
+                onChange={handleChange}
+                className="input-signin"
+                placeholder="password"
+              />
+            </label>
+            <br />
+            <div className="btn-container">
+              <button className="login-options" id="submit-login">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   );
 }
