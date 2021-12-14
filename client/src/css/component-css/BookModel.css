@@ -1,6 +1,6 @@
 .library-main-div {
   width: 30%;
-  /* height: 100vh; */
+  height: 50vh;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,7 @@
   flex-direction: row;
   background-color: #CFBCB0;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .book3 {
@@ -105,4 +106,19 @@
 
 .book3:hover .back {
   transform: rotateY(-20deg) scale(1.1);
+}
+
+.library-post-title {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.library-post-user {
+  text-align: center;
+  color: #BCABAE;
+}
+
+.text-interior {
+  text-align: center;
+  color: black;
 }
