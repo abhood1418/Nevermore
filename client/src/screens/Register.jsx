@@ -1,4 +1,7 @@
 import { useState } from "react";
+import lovecraft from '../assets/lovecraft.png';
+import hobbit from '../assets/hobbit.png';
+import '../css/screens-css/Register.css';
 
 export default function Register(props) {
   const [formData, setFormData] = useState({
@@ -19,6 +22,7 @@ export default function Register(props) {
 
   return (
     <div className="login-main-div">
+      <img className="hobbit" src={hobbit} />
       <div className="form-div">
         <form
           onSubmit={(e) => {
@@ -72,6 +76,7 @@ export default function Register(props) {
               </button>
             </div>
           </div>
+          <img className="lovecraft" src={lovecraft}/>
         </form>
       </div>
     </div>

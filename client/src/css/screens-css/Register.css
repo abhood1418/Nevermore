@@ -1,0 +1,13 @@
+.lovecraft {
+    position: absolute;
+    height: 500px;
+    margin-left: 20vw;
+    bottom: 10vh;
+  }
+
+  .hobbit {
+    position: absolute;
+    height: 600px;
+    margin-right: 62vw;
+    bottom: 0;
+  }
