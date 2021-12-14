@@ -1,4 +1,3 @@
-import lovecraft from '../assets/lovecraft.png';
 import poe from '../assets/poe.png';
 import alice from '../assets/alice.png';
 import border from '../assets/border.png';
@@ -8,7 +7,6 @@ import '../css/component-css/InfoCards.css';
 const InfoCards = () => {
   return (
     <div className="info-card-main">
-      {/* <div className="card1"><img src={lovecraft} /></div> */}
       <div className="main-card">
         <div className="border-container">
           <img className="border-class" src={border} />

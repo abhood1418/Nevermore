@@ -3,6 +3,7 @@
 .info-card-main {
   background-color: #2D2E2E;
   display: inline-flex;
+  /* flex-wrap: wrap; */
   width: 100%;
   filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
 }
@@ -15,7 +16,6 @@
   margin:auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 34px;
-  /* transform: matrix(0.99, -0.09, 0.12, 1, 0, 0); */
 }
 
 .card1:hover {
@@ -26,8 +26,6 @@
   height: 450px;
   width: 350px;
   align-self: center;
-  /* padding-left: 5px; */
-  /* transform: matrix(0.99, -0.09, 0.12, 1, 0, 0); */
 }
 
 .card1 img:hover {
@@ -43,7 +41,6 @@
   text-align: center;
   margin:auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  /* border-radius: 34px; */
   font-family: 'Shadows Into Light Two', cursive;
   color: #FFFFFF;
   margin: 0;

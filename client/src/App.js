@@ -84,7 +84,7 @@ function App() {
 
   return (
     <div className="app">
-      <Layout currentUser={currentUser} handleLogout={handleLogout} />
+      <Layout currentUser={currentUser} handleLogout={handleLogout}>
       <Routes>
         <Route path="/login" element={<SignIn handleLogin={handleLogin} />} />
         <Route
@@ -121,6 +121,7 @@ function App() {
           element={<Home posts={posts} currentUser={currentUser} />}
         />
       </Routes>
+      </Layout>
     </div>
   );
 }

@@ -1,5 +1,4 @@
-import DisplayTome from '../components/DisplayTome';
-
+import DisplayTome from "../components/DisplayTome";
 
 const LowerInfo = () => {
   return (
@@ -7,7 +6,7 @@ const LowerInfo = () => {
       <DisplayTome />
       <div className="lower-filler"></div>
     </div>
-  )
-}
+  );
+};
 
 export default LowerInfo;
