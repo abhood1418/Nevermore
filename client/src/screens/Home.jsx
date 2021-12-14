@@ -17,7 +17,6 @@ const Home = ({ posts }) => {
       <InfoCards />
       <div className="space-div"></div>
       <LowerInfo />
-      {/* <Footer /> */}
   </div>
   )
 }
