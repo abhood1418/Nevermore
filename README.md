@@ -83,7 +83,8 @@ The **Nevermore** MVP includes:
 
 - Desktop Landing
 
-![Screen Shot 2021-12-09 at 2 37 23 PM](https://user-images.githubusercontent.com/91752553/145464103-d3ec9648-d157-4e78-98d5-c2c4f6d1ab46.png)
+![Screen Shot 2021-12-15 at 4 22 58 PM](https://user-images.githubusercontent.com/91752553/146267052-d70ac8d5-a147-4ae2-b645-c78c1d415e7f.png)
+
 
 - Resource Index
 
