@@ -119,6 +119,7 @@
   }
   .main-desc {
     margin-right: 8vw;
+    font-size: 16px;
   }
   .alice {
     transform: translateY(0.01vh);
