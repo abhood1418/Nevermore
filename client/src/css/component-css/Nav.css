@@ -64,6 +64,29 @@
   font-family: 'PT Mono', monospace;
 }
 
+@media only screen and (max-width: 768px) {
+  .nav-main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+  }
+  .auth-options, p, a, button {
+    padding: 8px;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: fit-content;
+    font-size: 20px;
+  }
+  .signout-btn {
+    font-size: 20px;
+  }
+  .logo-area {
+    margin-left: -10vw;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   .nav-main-div {
     display: flex;
