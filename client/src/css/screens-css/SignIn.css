@@ -130,4 +130,19 @@
     height: 400px;
     margin-bottom: 15vh;
   }
+  .login-options {
+    transform: none;
+  }
+  .text-login-header {
+    width: 414px;
+  }
+  .form-div {
+    width: fit-content;
+  }
+  .form {
+    width: 414px;
+  }
+  .text-login-header {
+    width: 414px;
+  }
 }
