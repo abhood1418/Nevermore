@@ -247,3 +247,11 @@
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .ultimate-dispbook-div {
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+  }
+}
