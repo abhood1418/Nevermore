@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import '../css/component-css/EditForm.css';
+import "../css/component-css/EditForm.css";
 
 export default function PostEdit({
   posts,
@@ -33,41 +33,46 @@ export default function PostEdit({
   return (
     <div className="editform-master-div">
       <div className="editform-div">
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          handlePostUpdate(id, formData);
-        }}
-      >
-          <h3 className='editform-title'>Rewrite Tome</h3>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            handlePostUpdate(id, formData);
+          }}
+        >
+          <h3 className="editform-title">Rewrite Tome</h3>
           <div className="edit-content-area">
-        <label>
-          {/* Title: */}
-          <input
-            className="labels-edit"
-            type="text"
-            name="title"
-            value={title}
-            onChange={handleChange}
-          />
-        </label>
-        <label>
-          {/* Content: */}
-          <textarea
-            className="edit-content"
-            type="textarea"
-            name="content"
-            value={content}
-            onChange={handleChange}
-          />
+            <label>
+              {/* Title: */}
+              <input
+                className="labels-edit"
+                type="text"
+                name="title"
+                value={title}
+                onChange={handleChange}
+              />
+            </label>
+            <label>
+              {/* Content: */}
+              <textarea
+                className="edit-content"
+                type="textarea"
+                name="content"
+                value={content}
+                onChange={handleChange}
+              />
             </label>
             <div className="edit-btn-div">
-        <button className="rewrite-div">Rewrite</button>
-        <button className="delete-div" onClick={() => handlePostDelete(id)}>Delete</button>
-        </div>
-        </div>
+              <button className="rewrite-div">Rewrite</button>
+              <button
+                className="delete-div"
+                onClick={() => handlePostDelete(id)}
+              >
+                Delete
+              </button>
+            </div>
+          </div>
         </form>
-        </div>
+      </div>
     </div>
   );
 }

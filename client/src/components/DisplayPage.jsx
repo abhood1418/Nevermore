@@ -12,8 +12,9 @@ const DisplayPage = ({ onePost, currentUser }) => {
           <p className="display-content">{onePost.content}</p>
         </div>
         {currentUser.id === onePost.user_id ? (
-          <Link className="edit-link" to={`/library/${onePost.id}/edit`}>
-            click me
+          <Link className="edit-link" to={`/library/${onePost.id}/edit`}><button className="rewrite-div">
+            Rewrite
+            </button>
           </Link>
         ) : null}
       </div>

@@ -80,6 +80,7 @@ function App() {
     await deletePost(id);
     setPosts((prevState) => prevState.filter((post) => post.id !== id));
     setToggleFetch(!toggleFetch);
+    navigate("/library");
   };
 
   return (
