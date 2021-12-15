@@ -161,22 +161,21 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add User Auth.      |    H     |     4 hrs      |      TBD      |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |      TBD      |     TBD     |
-| Create Forms        |    H     |     8 hrs      |      TBD      |     TBD     |
-| Create Layout       |    M     |     3 hrs      |      TBD      |     TBD     |
-| Book Model          |    H     |     2 hrs      |      TBD      |     TBD     |
-| Tome Detail         |    H     |     3 hrs      |      TBD      |     TBD     |
-| Flip Book           |    L     |     3 hrs      |      TBD      |     TBD     |
-| Quote               |    L     |     2 hrs      |      TBD      |     TBD     |
-| Info Cards          |    L     |     4 hrs      |      TBD      |     TBD     |
-| Display Tome        |    L     |     3 hrs      |      TBD      |     TBD     |
-| Benefits            |    L     |     2 hrs      |      TBD      |     TBD     |
-| Hamburger           |    M     |     3 hrs      |      TBD      |     TBD     |
-| Styling             |    M     |     8 hrs      |      TBD      |     TBD     |
-| TOTAL               |          |     54 hrs     |      TBD      |     TBD     |
+| Add User Auth.      |    H     |     4 hrs      |      4 hrs    |     4 hrs   |
+| Create CRUD Actions |    H     |     3 hrs      |      6 hrs    |     6 hrs   |
+| Create Forms        |    H     |     8 hrs      |      1 hr     |     1 hr    |
+| Create Layout       |    M     |     3 hrs      |      1 hr     |     1 hr    |
+| Book Model          |    H     |     2 hrs      |      1 hr     |     1 hr    |
+| Tome Detail         |    H     |     3 hrs      |      2 hrs    |     2 hrs   |
+| Flip Book           |    L     |     3 hrs      |      3 hrs    |     3 hrs   |
+| Quote               |    L     |     2 hrs      |      1 hr     |     1 hr    |
+| Info Cards          |    L     |     4 hrs      |      2 hrs    |     2 hrs   |
+| Display Tome        |    L     |     3 hrs      |      3 hrs    |     3 hrs   |
+| Benefits            |    L     |     2 hrs      |      1 hr     |     1 hr    |
+| Media Query         |    M     |     3 hrs      |      3 hrs    |     3 hrs   |
+| Styling             |    M     |     8 hrs      |      10 hrs   |     10 hrs  |
+| TOTAL               |          |     54 hrs     |      38 hrs   |     38 hrs  |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
 
 <br>
 
@@ -184,7 +183,7 @@ src
 
 #### ERD Model
 
-![Screen Shot 2021-12-09 at 2 33 53 PM](https://user-images.githubusercontent.com/91752553/145463647-202bbdea-e747-45fd-b69c-da830bd539f8.png)
+![Screen Shot 2021-12-09 at 1 59 12 PM](https://user-images.githubusercontent.com/91752553/146266311-861ccb54-0860-4f45-881a-16a70ef6db9d.png)
 
 <br>
 
@@ -205,11 +204,15 @@ src
 
 ## Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+```
+render json: @posts, include: {user: {only: [:username, :id]}}
+```
+Rending associations from backend to front end by associating the username to a post. 
 
 ## Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution.
+- Problem: Rending associations of user to post. Resolution (see above): Creating association on back-end. 
+- Problem: Utliizing Codepen resources. Resolution: Installing SCSS/SASS stylesheets into Client. 
 
 ## Credits
 - Amit Sheen, Turning pages with CSS, https://codepen.io/amit_sheen/pen/WNweryv
