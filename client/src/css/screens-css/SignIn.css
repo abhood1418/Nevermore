@@ -103,3 +103,15 @@
   bottom: 0;
 }
 
+@media only screen and (max-width: 414px) {
+  .peer {
+    display: none;
+  }
+  .stacks {
+    text-align: center;
+    width: fit-content;
+    margin-right: 20vw;
+    height: 400px;
+    margin-bottom: 15vh;
+  }
+}
