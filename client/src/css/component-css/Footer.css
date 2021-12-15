@@ -29,3 +29,18 @@ width: 100px;
   height: 110px;
   width: 100%;
 }
+
+@media only screen and (max-width: 414px) {
+  .footer-main-div {
+    bottom: 0;
+  }
+  .icon {
+    height: 88px;
+  }
+  .logo-footer {
+    height: 50px;
+  }
+  .my-name{
+    margin:0;
+  }
+}
