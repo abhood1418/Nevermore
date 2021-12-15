@@ -218,4 +218,4 @@ Rending associations from backend to front end by associating the username to a 
 ## Credits
 - Amit Sheen, Turning pages with CSS, https://codepen.io/amit_sheen/pen/WNweryv
 - Dhanish, CSS Only Flipping Book, https://codepen.io/dhanishgajjar/pen/bjaYYo
-- Thea, George Orwell #CodepenChallenge, https://codepen.io/HighFlyer/pen/LaXrgV
+- Nayara Alves, CSS-ONLY FOUNDATION BOOK PREVIEW, https://codepen.io/diemoritat/pen/LKROYZ
