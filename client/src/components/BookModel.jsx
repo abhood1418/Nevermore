@@ -17,7 +17,7 @@ const BookModel = ({ post }) => {
         <div class="front">
           <h1 className="library-post-title">{post.title}</h1>
           <br />
-          <h2 className="library-post-user">Username with go here</h2>
+          <h2 className="library-post-user">{post.user.username}</h2>
         </div>
       </div>
     </div>
