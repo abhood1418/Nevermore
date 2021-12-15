@@ -126,6 +126,16 @@
   color: black;
 }
 
+@media only screen and (max-width: 768px) {
+  .library-main-div {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    margin-left: 38vw;
+   }
+}
+
 @media only screen and (max-width: 414px) {
  .library-main-div {
   display: flex;
