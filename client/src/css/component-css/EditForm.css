@@ -75,10 +75,18 @@
 }
 
 @media only screen and (max-width: 414px) { 
-  .form-div {
-    width: fit-content;
-  }
-  .text-login-header {
+  .editform-div {
     width: 100%;
+  }
+  
+  .editform-title {
+    width: 100vw;
+    border-radius: none;
+  }
+  .labels-edit {
+    width: 99%;
+  }
+  .edit-content {
+    width: 99%;
   }
 }

@@ -35,3 +35,8 @@
   font-family: 'Slabo 13px', serif;
 }
 
+@media only screen and (max-width: 414px) {
+  .content-page {
+    min-width: 400px;
+  }
+}

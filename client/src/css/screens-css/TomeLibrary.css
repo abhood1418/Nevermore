@@ -1,9 +1,3 @@
 .library-main {
   background-color: #CFBCB0;
 }
-
-@media only screen and (max-width: 414px) {
-  .library-main {
-    
-  }
-}
