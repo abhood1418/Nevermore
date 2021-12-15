@@ -9,6 +9,12 @@
   background-color: #746B6B;
 }
 
+@media only screen and (max-width: 768px) {
+  .space-div {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   .space-div {
     display: none;
