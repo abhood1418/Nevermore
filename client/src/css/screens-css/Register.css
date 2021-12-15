@@ -12,6 +12,22 @@
     bottom: 0;
   }
 
+  @media only screen and (max-width: 768px) {
+    .lovecraft {
+      display:none;
+    }
+    .hobbit {
+      text-align: center;
+      width: fit-content;
+      margin-right: 0vw;
+      height: 500px;
+      margin-bottom: 12vh;
+    }
+    .login-options {
+      transform: translateY(-5vh);
+    }
+  }
+
   @media only screen and (max-width: 414px) {
     .lovecraft {
       display: none;
