@@ -73,3 +73,12 @@
   border: solid 3px #434d4d;
   text-align: center;
 }
+
+@media only screen and (max-width: 414px) { 
+  .form-div {
+    width: fit-content;
+  }
+  .text-login-header {
+    width: 100%;
+  }
+}

@@ -11,3 +11,16 @@
     margin-right: 62vw;
     bottom: 0;
   }
+
+  @media only screen and (max-width: 414px) {
+    .lovecraft {
+      display: none;
+    }
+    .hobbit {
+      text-align: center;
+      width: fit-content;
+      margin-right: 20vw;
+      height: 500px;
+      margin-bottom: 9vh;
+    }
+  }
