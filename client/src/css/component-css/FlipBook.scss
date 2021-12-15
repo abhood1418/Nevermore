@@ -251,3 +251,15 @@ $images:
           #{13 + ($i * 20)}% { background-image: nth($images, ($i + 2)); background-position: -388px -2px; transform: rotateY(180deg); }
     }
 }
+
+@media only screen and (max-width: 414px) {
+  .flipbody {
+    width: 414px;
+    overflow: hidden;
+    height: 60vh;
+  }
+
+  .container {
+    width: 413px;
+  }
+}

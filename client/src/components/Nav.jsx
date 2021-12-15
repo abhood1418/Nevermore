@@ -3,6 +3,7 @@ import logo from "../assets/logo.png";
 import "../css/component-css/Nav.css";
 
 
+
 const Nav = ({ currentUser, handleLogout }) => {
   console.log(currentUser);
   return (

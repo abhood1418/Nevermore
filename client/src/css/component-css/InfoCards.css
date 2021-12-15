@@ -91,3 +91,37 @@
   margin-top: 0;
   padding-top: 0;
 }
+
+@media only screen and (max-width: 414px) {
+  .info-card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height:fit-content;
+  }
+  .border-class {
+    display: none;
+  }
+  .main-card {
+    width: 100vw;
+    transform: none;
+    max-width: none;
+    text-align: center;
+    height: 60vh;
+  }
+  .main-desc {
+    width: 400px;
+    margin: 0;
+  }
+  .main-title{
+    margin:0;
+  }
+  .alice {
+    transform: none;
+  }
+  .card2 {
+    margin-top: 8vh;
+    bottom: 0;
+  }
+}
