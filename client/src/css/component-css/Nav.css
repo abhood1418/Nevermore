@@ -65,7 +65,21 @@
 }
 
 @media only screen and (max-width: 414px) {
-  .auth-options {
-    display: none;
+  .nav-main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+  }
+  .auth-options, p, a, button {
+    padding: 8px;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: fit-content;
+    font-size: 20px;
+  }
+  .signout-btn {
+    font-size: 20px;
   }
 }

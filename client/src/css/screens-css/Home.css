@@ -13,4 +13,7 @@
   .space-div {
     display: none;
   }
+  .nav-filler {
+    width: 100vw;
+  }
 }
