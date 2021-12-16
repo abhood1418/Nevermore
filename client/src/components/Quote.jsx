@@ -1,4 +1,4 @@
-import '../css/component-css/Quote.css';
+import "../css/component-css/Quote.css";
 
 const Quote = () => {
   return (

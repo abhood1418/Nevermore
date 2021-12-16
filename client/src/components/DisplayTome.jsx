@@ -1,9 +1,7 @@
-import { Helmet } from "react-helmet";
 import "../css/component-css/DisplayTome.scss";
 
 const DisplayTome = () => {
   return (
-    // <div><Helmet><link rel="stylesheet" href="https://use.typekit.net/lae8qkv.css"  /></Helmet>
     <div className="supreme">
       <div className="ultimate-dispbook-div">
         <div className="cover">
