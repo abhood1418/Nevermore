@@ -13,7 +13,7 @@ const InfoCards = () => {
         <div className="info-container">
           <h4 className="main-title">What is Nevermore?</h4>
           <p className="main-desc">
-            Never more is in need of some information in this location. If you
+            Nevermore is in need of some information in this location. If you
             have any information or know where to find some, please list it out
             below where there is nowhere to list it. If you have problems
             listing it below, then please make sure to use the contact form in
